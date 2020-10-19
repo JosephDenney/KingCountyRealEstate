@@ -14,11 +14,15 @@
 
 ## Purpose
 
-#### Create a general understanding of important housing features in King County. Our 
+#### Create a general understanding of important housing features in King County. Our client is a realtor in the county and has tasked us in helping to explain the most important, or value driving features of homes within the county. 
+
+## King County General Map
+
+<img src="https://github.com/JosephDenney/KingCountyRealEstate/blob/master/img/KCC_areas.jpg?raw=true" width = "400"/>
 
 ## Description of Data
 
-<img src="https://github.com/JosephDenney/KingCountyRealEstate/blob/master/img/KCC_areas.jpg?raw=true" width = "400"/>
+<img src="https://github.com/JosephDenney/KingCountyRealEstate/blob/master/img/headers.png?raw=true" width = "400"/>
 
 ## Main Questions
 * Question 1: Does a longer runtime indicate a lower average rating? Should Microsoft have a target movie length range for their projects? 
