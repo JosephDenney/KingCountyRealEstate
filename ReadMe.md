@@ -47,7 +47,7 @@ Distance from Seattle, however, does introduce a better feature to the model and
 
 ![svg](img/Mod2HousingReg_files/Mod2HousingReg_85_0.svg)
 
-* Question 4 Answer and Further Investigation: Isolating the home sales on Mercer Island allowed us to isolate a smaller market to understand which features best predict the target. Let's run a quick check model formula for the Mercer Isand data. We recommend that the realtor highlight interior square footage, size of lot, and overal proximity to the city. The most important takeaway from our investigations is location, location, location. Can further isolate neighborhoods in further investigation and regressions, but many features that we started with are either trivial or autocorrelated and can't be used in regression. 
+* Question 4 Answer and Further Investigation: Isolating the home sales on Mercer Island allowed us to isolate a smaller market to understand which features best predict the target. Let's run a quick check model formula for the Mercer Isand data. We recommend that the realtor highlight interior square footage, size of lot, and overal proximity to the city. The most important takeaway from our investigations is location, location, location. Can further isolate neighborhoods in further investigation and regressions, but many features that we started with are either trivial or autocorrelated and can't be used in regression.
 
 ![svg](img/Mod2HousingReg_files/Mod2HousingReg_93_1.svg)
 ![svg](img/Mod2HousingReg_files/Mod2HousingReg_96_0.svg)
