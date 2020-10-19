@@ -41,16 +41,16 @@ Distance from Seattle, however, does introduce a better feature to the model and
 * Question 2 Answer and Further Investigation: While neither feature was used in our final regressive predictive model, it is clear that original build grade is strongly positively correlated with home prices. Condition may not affect sale price much. This is likely because condition is temporary and can be remedied fairly easily, whereas to change a home's build grade requires substantial renovation from the literal ground up. To further investigate, suggest breaking the data down by geographical location again. The analyis of the entire county is not apples to apples. Real estate in downtown Seattle with a view of the city is not the same as real estate 15 miles south of Seattle.
 
 ![svg](img/Mod2HousingReg_files/Mod2HousingReg_80_1.svg)
+![svg](img/Mod2HousingReg_files/Mod2HousingReg_81_1.svg)
 
 * Question 3 Answer and Further Investigation: Bellevue, Capitol Hill, Magnolia, and Mercer Island have homes that are more expensive per square foot. Mercer Island has large homes and you can get more for your dollar compared with Bellevue. Generally speaking, properties south of Seattle in King County are not as valuable, but we can't pinpoint or recommend why that may be other than location. Isolating these specific locations and neighborhoods in separate regressions analyses will likely be an efficient way to build a better predictive model, the limitation being that the model can't be applied to different neighborhoods.
 
-![svg](ntbook1_files/ntbook1_35_0.svg)
-![svg](ntbook1_files/ntbook1_36_0.svg)
-![svg](ntbook1_files/ntbook1_37_0.svg)
+![svg](img/Mod2HousingReg_files/Mod2HousingReg_85_0.svg)
 
 * Question 4 Answer and Further Investigation: Isolating the home sales on Mercer Island allowed us to isolate a smaller market to understand which features best predict the target. Let's run a quick check model formula for the Mercer Isand data. We recommend that the realtor highlight interior square footage, size of lot, and overal proximity to the city. The most important takeaway from our investigations is location, location, location. Can further isolate neighborhoods in further investigation and regressions, but many features that we started with are either trivial or autocorrelated and can't be used in regression. 
 
-![svg](ntbook1_files/ntbook1_45_0.svg)
+![svg](img/Mod2HousingReg_files/Mod2HousingReg_93_1.svg)
+![svg](img/Mod2HousingReg_files/Mod2HousingReg_96_0.svg)
 
 ## Future Work
 * Analysis of the housing market must be neighborhood specific. Individuals with different income are going to be able to afford what they can afford. Similarly, not every person will put the same importance on specific features that another would. Breaking datasets into neighborhoods is crucial to building a model. 
