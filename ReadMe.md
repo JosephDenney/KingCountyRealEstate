@@ -2,9 +2,7 @@
 
 <img src="https://cdn.britannica.com/41/41341-050-1C78C21D/Seattle-background-Mount-Rainier.jpg" width = "800"/>
 
-
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.britannica.com%2Fplace%2FSeattle-Washington&psig=AOvVaw3-ffvdTfX1UwCXZLGcl2UY&ust=160
-##### [Slideshow PDF](https://github.com/JosephDenney/MicrosoftMovie/blob/master/Microsoft%20Movie%20Madness.pdf)
+##### [Slideshow PDF]
 ##### [Video Walkthrough](https://github.com/JosephDenney/MicrosoftMovie/blob/master/zoom_0.mp4)
 
 ### Outline
@@ -16,25 +14,11 @@ https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.britannica.com%2Fplace%2FS
 
 ## Purpose
 
-#### Microsoft, the client, has tasked our firm with the analysis of film industry data in order to determine trends and provide insights into their movie making ventures. All analysis and subsequent recommendations will be key to their initial efforts at penetrating the market.
+#### Create a general understanding of important housing features in King County. Our 
 
 ## Description of Data
 
-* imdb.title.basics
-
-##### This data table provides basic data from imdb that contains title, year, runtime, and genre. It can be merged with title ratings on a common column called tconst.
-
-* imdb.title.ratings
-
-##### Data table contains average rating as well as the number of votes that go towards those ratings. It can be merged with title basics on a common column called tconst.
-
-* bom.movie_gross
-
-##### A table that contains movie titles and year of release in addition to foreign and domestic box office gross earnings.
-
-* tn.movie_budgets
-
-##### Reveals information regarding production budgets and another look at domestic and worldwide gross sales for each film.
+<img src="https://github.com/JosephDenney/KingCountyRealEstate/blob/master/img/KCC_areas.jpg?raw=true" width = "400"/>
 
 ## Main Questions
 * Question 1: Does a longer runtime indicate a lower average rating? Should Microsoft have a target movie length range for their projects? 
