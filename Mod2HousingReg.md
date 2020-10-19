@@ -69,22 +69,22 @@ df.hist(figsize=(20,20),bins=50)
 
 
 
-    array([[<matplotlib.axes._subplots.AxesSubplot object at 0x00000214B36F4C10>,
-            <matplotlib.axes._subplots.AxesSubplot object at 0x00000214B3962160>,
-            <matplotlib.axes._subplots.AxesSubplot object at 0x00000214B3793550>,
-            <matplotlib.axes._subplots.AxesSubplot object at 0x00000214B3FEE9D0>],
-           [<matplotlib.axes._subplots.AxesSubplot object at 0x00000214B4016E20>,
-            <matplotlib.axes._subplots.AxesSubplot object at 0x00000214B404D1F0>,
-            <matplotlib.axes._subplots.AxesSubplot object at 0x00000214B404D2E0>,
-            <matplotlib.axes._subplots.AxesSubplot object at 0x00000214B4074790>],
-           [<matplotlib.axes._subplots.AxesSubplot object at 0x00000214B40C8FA0>,
-            <matplotlib.axes._subplots.AxesSubplot object at 0x00000214B40FE430>,
-            <matplotlib.axes._subplots.AxesSubplot object at 0x00000214B41288B0>,
-            <matplotlib.axes._subplots.AxesSubplot object at 0x00000214B4154D00>],
-           [<matplotlib.axes._subplots.AxesSubplot object at 0x00000214B418C190>,
-            <matplotlib.axes._subplots.AxesSubplot object at 0x00000214B41BA5E0>,
-            <matplotlib.axes._subplots.AxesSubplot object at 0x00000214B41E4A30>,
-            <matplotlib.axes._subplots.AxesSubplot object at 0x00000214B4212EB0>]],
+    array([[<matplotlib.axes._subplots.AxesSubplot object at 0x0000022F0DA69430>,
+            <matplotlib.axes._subplots.AxesSubplot object at 0x0000022F0E1448E0>,
+            <matplotlib.axes._subplots.AxesSubplot object at 0x0000022F0E173D30>,
+            <matplotlib.axes._subplots.AxesSubplot object at 0x0000022F0E1AC1C0>],
+           [<matplotlib.axes._subplots.AxesSubplot object at 0x0000022F0E1D9610>,
+            <matplotlib.axes._subplots.AxesSubplot object at 0x0000022F0E12A8E0>,
+            <matplotlib.axes._subplots.AxesSubplot object at 0x0000022F0E181280>,
+            <matplotlib.axes._subplots.AxesSubplot object at 0x0000022F0E236160>],
+           [<matplotlib.axes._subplots.AxesSubplot object at 0x0000022F0E291970>,
+            <matplotlib.axes._subplots.AxesSubplot object at 0x0000022F0E2BCDC0>,
+            <matplotlib.axes._subplots.AxesSubplot object at 0x0000022F0E2F5280>,
+            <matplotlib.axes._subplots.AxesSubplot object at 0x0000022F0E31F6D0>],
+           [<matplotlib.axes._subplots.AxesSubplot object at 0x0000022F0E34CB20>,
+            <matplotlib.axes._subplots.AxesSubplot object at 0x0000022F0E37AF70>,
+            <matplotlib.axes._subplots.AxesSubplot object at 0x0000022F0E3B2400>,
+            <matplotlib.axes._subplots.AxesSubplot object at 0x0000022F0E3DF880>]],
           dtype=object)
 
 
@@ -1055,7 +1055,7 @@ plt.legend()
 
 
 
-    <matplotlib.legend.Legend at 0x214b6dbc5b0>
+    <matplotlib.legend.Legend at 0x22f10d02b50>
 
 
 
@@ -1361,8 +1361,8 @@ print(lm.summary())
     Dep. Variable:                  price   R-squared (uncentered):                   0.938
     Model:                            OLS   Adj. R-squared (uncentered):              0.938
     Method:                 Least Squares   F-statistic:                          2.128e+04
-    Date:                Sat, 17 Oct 2020   Prob (F-statistic):                        0.00
-    Time:                        12:04:47   Log-Likelihood:                     -2.0565e+05
+    Date:                Mon, 19 Oct 2020   Prob (F-statistic):                        0.00
+    Time:                        11:09:51   Log-Likelihood:                     -2.0565e+05
     No. Observations:               15480   AIC:                                  4.113e+05
     Df Residuals:                   15469   BIC:                                  4.114e+05
     Df Model:                          11                                                  
@@ -1416,8 +1416,8 @@ print(lm.summary())
     Dep. Variable:                  price   R-squared (uncentered):                   0.938
     Model:                            OLS   Adj. R-squared (uncentered):              0.938
     Method:                 Least Squares   F-statistic:                          2.601e+04
-    Date:                Sat, 17 Oct 2020   Prob (F-statistic):                        0.00
-    Time:                        12:04:47   Log-Likelihood:                     -2.0565e+05
+    Date:                Mon, 19 Oct 2020   Prob (F-statistic):                        0.00
+    Time:                        11:09:51   Log-Likelihood:                     -2.0565e+05
     No. Observations:               15480   AIC:                                  4.113e+05
     Df Residuals:                   15471   BIC:                                  4.114e+05
     Df Model:                           9                                                  
@@ -1465,8 +1465,8 @@ print(lm.summary())
     Dep. Variable:                  price   R-squared (uncentered):                   0.935
     Model:                            OLS   Adj. R-squared (uncentered):              0.935
     Method:                 Least Squares   F-statistic:                          2.772e+04
-    Date:                Sat, 17 Oct 2020   Prob (F-statistic):                        0.00
-    Time:                        12:04:47   Log-Likelihood:                     -2.0604e+05
+    Date:                Mon, 19 Oct 2020   Prob (F-statistic):                        0.00
+    Time:                        11:09:51   Log-Likelihood:                     -2.0604e+05
     No. Observations:               15480   AIC:                                  4.121e+05
     Df Residuals:                   15472   BIC:                                  4.122e+05
     Df Model:                           8                                                  
@@ -1588,8 +1588,8 @@ print(lm.summary()) # fit to the data
     Dep. Variable:                  price   R-squared (uncentered):                   0.934
     Model:                            OLS   Adj. R-squared (uncentered):              0.934
     Method:                 Least Squares   F-statistic:                          3.659e+04
-    Date:                Sat, 17 Oct 2020   Prob (F-statistic):                        0.00
-    Time:                        12:05:12   Log-Likelihood:                     -2.0610e+05
+    Date:                Mon, 19 Oct 2020   Prob (F-statistic):                        0.00
+    Time:                        11:10:19   Log-Likelihood:                     -2.0610e+05
     No. Observations:               15479   AIC:                                  4.122e+05
     Df Residuals:                   15473   BIC:                                  4.123e+05
     Df Model:                           6                                                  
@@ -1631,8 +1631,8 @@ cm(df,['bedrooms', 'sqft_living', 'sqft_lot15','view','grade','distance'],'price
     Dep. Variable:                  price   R-squared (uncentered):                   0.934
     Model:                            OLS   Adj. R-squared (uncentered):              0.934
     Method:                 Least Squares   F-statistic:                          3.659e+04
-    Date:                Sat, 17 Oct 2020   Prob (F-statistic):                        0.00
-    Time:                        12:05:12   Log-Likelihood:                     -2.0610e+05
+    Date:                Mon, 19 Oct 2020   Prob (F-statistic):                        0.00
+    Time:                        11:10:19   Log-Likelihood:                     -2.0610e+05
     No. Observations:               15479   AIC:                                  4.122e+05
     Df Residuals:                   15473   BIC:                                  4.123e+05
     Df Model:                           6                                                  
@@ -1663,7 +1663,7 @@ cm(df,['bedrooms', 'sqft_living', 'sqft_lot15','view','grade','distance'],'price
 
 
 
-    <statsmodels.regression.linear_model.RegressionResultsWrapper at 0x214b6244910>
+    <statsmodels.regression.linear_model.RegressionResultsWrapper at 0x22f11547a00>
 
 
 
@@ -1685,8 +1685,8 @@ print(lm.summary())
     Dep. Variable:                  price   R-squared (uncentered):                   0.909
     Model:                            OLS   Adj. R-squared (uncentered):              0.909
     Method:                 Least Squares   F-statistic:                          3.092e+04
-    Date:                Sat, 17 Oct 2020   Prob (F-statistic):                        0.00
-    Time:                        12:05:12   Log-Likelihood:                     -2.0861e+05
+    Date:                Mon, 19 Oct 2020   Prob (F-statistic):                        0.00
+    Time:                        11:10:19   Log-Likelihood:                     -2.0861e+05
     No. Observations:               15479   AIC:                                  4.172e+05
     Df Residuals:                   15474   BIC:                                  4.173e+05
     Df Model:                           5                                                  
@@ -1727,8 +1727,8 @@ cm(df,['bedrooms', 'sqft_living', 'sqft_lot15', 'view', 'distance'],'price',add_
     Dep. Variable:                  price   R-squared (uncentered):                   0.909
     Model:                            OLS   Adj. R-squared (uncentered):              0.909
     Method:                 Least Squares   F-statistic:                          3.092e+04
-    Date:                Sat, 17 Oct 2020   Prob (F-statistic):                        0.00
-    Time:                        12:05:12   Log-Likelihood:                     -2.0861e+05
+    Date:                Mon, 19 Oct 2020   Prob (F-statistic):                        0.00
+    Time:                        11:10:19   Log-Likelihood:                     -2.0861e+05
     No. Observations:               15479   AIC:                                  4.172e+05
     Df Residuals:                   15474   BIC:                                  4.173e+05
     Df Model:                           5                                                  
@@ -1758,7 +1758,7 @@ cm(df,['bedrooms', 'sqft_living', 'sqft_lot15', 'view', 'distance'],'price',add_
 
 
 
-    <statsmodels.regression.linear_model.RegressionResultsWrapper at 0x214b7377be0>
+    <statsmodels.regression.linear_model.RegressionResultsWrapper at 0x22f0eb858e0>
 
 
 
@@ -1772,8 +1772,8 @@ cm(df,['sqft_living', 'sqft_lot15', 'view', 'distance'],'price',add_constant=Fal
     Dep. Variable:                  price   R-squared (uncentered):                   0.904
     Model:                            OLS   Adj. R-squared (uncentered):              0.904
     Method:                 Least Squares   F-statistic:                          3.642e+04
-    Date:                Sat, 17 Oct 2020   Prob (F-statistic):                        0.00
-    Time:                        12:05:13   Log-Likelihood:                     -2.0902e+05
+    Date:                Mon, 19 Oct 2020   Prob (F-statistic):                        0.00
+    Time:                        11:10:19   Log-Likelihood:                     -2.0902e+05
     No. Observations:               15479   AIC:                                  4.181e+05
     Df Residuals:                   15475   BIC:                                  4.181e+05
     Df Model:                           4                                                  
@@ -1802,7 +1802,7 @@ cm(df,['sqft_living', 'sqft_lot15', 'view', 'distance'],'price',add_constant=Fal
 
 
 
-    <statsmodels.regression.linear_model.RegressionResultsWrapper at 0x214b6087ac0>
+    <statsmodels.regression.linear_model.RegressionResultsWrapper at 0x22f12876fa0>
 
 
 
@@ -1817,8 +1817,8 @@ cm(df,['sqft_living','view', 'distance'],'price',add_constant=False,show_summary
     Dep. Variable:                  price   R-squared (uncentered):                   0.904
     Model:                            OLS   Adj. R-squared (uncentered):              0.904
     Method:                 Least Squares   F-statistic:                          4.848e+04
-    Date:                Sat, 17 Oct 2020   Prob (F-statistic):                        0.00
-    Time:                        12:05:13   Log-Likelihood:                     -2.0904e+05
+    Date:                Mon, 19 Oct 2020   Prob (F-statistic):                        0.00
+    Time:                        11:10:19   Log-Likelihood:                     -2.0904e+05
     No. Observations:               15479   AIC:                                  4.181e+05
     Df Residuals:                   15476   BIC:                                  4.181e+05
     Df Model:                           3                                                  
@@ -1846,7 +1846,7 @@ cm(df,['sqft_living','view', 'distance'],'price',add_constant=False,show_summary
 
 
 
-    <statsmodels.regression.linear_model.RegressionResultsWrapper at 0x214b741a6a0>
+    <statsmodels.regression.linear_model.RegressionResultsWrapper at 0x22f10d937f0>
 
 
 
@@ -1861,8 +1861,8 @@ cm(df,['sqft_living','sqft_lot15', 'distance'],'price',add_constant=False,show_s
     Dep. Variable:                  price   R-squared (uncentered):                   0.900
     Model:                            OLS   Adj. R-squared (uncentered):              0.900
     Method:                 Least Squares   F-statistic:                          4.663e+04
-    Date:                Sat, 17 Oct 2020   Prob (F-statistic):                        0.00
-    Time:                        12:05:13   Log-Likelihood:                     -2.0931e+05
+    Date:                Mon, 19 Oct 2020   Prob (F-statistic):                        0.00
+    Time:                        11:10:19   Log-Likelihood:                     -2.0931e+05
     No. Observations:               15479   AIC:                                  4.186e+05
     Df Residuals:                   15476   BIC:                                  4.186e+05
     Df Model:                           3                                                  
@@ -1890,7 +1890,7 @@ cm(df,['sqft_living','sqft_lot15', 'distance'],'price',add_constant=False,show_s
 
 
 
-    <statsmodels.regression.linear_model.RegressionResultsWrapper at 0x214b62cc580>
+    <statsmodels.regression.linear_model.RegressionResultsWrapper at 0x22f10d43fa0>
 
 
 
@@ -1904,8 +1904,8 @@ cm(df,['sqft_living', 'view'],'price',add_constant=False,show_summary=True,vif_t
     Dep. Variable:                  price   R-squared (uncentered):                   0.887
     Model:                            OLS   Adj. R-squared (uncentered):              0.887
     Method:                 Least Squares   F-statistic:                          6.079e+04
-    Date:                Sat, 17 Oct 2020   Prob (F-statistic):                        0.00
-    Time:                        12:05:13   Log-Likelihood:                     -2.1028e+05
+    Date:                Mon, 19 Oct 2020   Prob (F-statistic):                        0.00
+    Time:                        11:10:19   Log-Likelihood:                     -2.1028e+05
     No. Observations:               15479   AIC:                                  4.206e+05
     Df Residuals:                   15477   BIC:                                  4.206e+05
     Df Model:                           2                                                  
@@ -1932,7 +1932,7 @@ cm(df,['sqft_living', 'view'],'price',add_constant=False,show_summary=True,vif_t
 
 
 
-    <statsmodels.regression.linear_model.RegressionResultsWrapper at 0x214b63071f0>
+    <statsmodels.regression.linear_model.RegressionResultsWrapper at 0x22f10d911f0>
 
 
 
@@ -1946,8 +1946,8 @@ cm(df,['sqft_living', 'distance'],'price',add_constant=False,show_summary=True,v
     Dep. Variable:                  price   R-squared (uncentered):                   0.900
     Model:                            OLS   Adj. R-squared (uncentered):              0.900
     Method:                 Least Squares   F-statistic:                          6.974e+04
-    Date:                Sat, 17 Oct 2020   Prob (F-statistic):                        0.00
-    Time:                        12:05:13   Log-Likelihood:                     -2.0933e+05
+    Date:                Mon, 19 Oct 2020   Prob (F-statistic):                        0.00
+    Time:                        11:10:19   Log-Likelihood:                     -2.0933e+05
     No. Observations:               15479   AIC:                                  4.187e+05
     Df Residuals:                   15477   BIC:                                  4.187e+05
     Df Model:                           2                                                  
@@ -1972,7 +1972,7 @@ cm(df,['sqft_living', 'distance'],'price',add_constant=False,show_summary=True,v
 
 
 
-    <statsmodels.regression.linear_model.RegressionResultsWrapper at 0x214b6226370>
+    <statsmodels.regression.linear_model.RegressionResultsWrapper at 0x22f10e184f0>
 
 
 
@@ -2094,7 +2094,7 @@ plt.legend()
 
 
 
-    <matplotlib.legend.Legend at 0x214b611fee0>
+    <matplotlib.legend.Legend at 0x22f0eea1220>
 
 
 
@@ -2245,7 +2245,7 @@ plt.legend()
 
 
 
-    <matplotlib.legend.Legend at 0x214b62db220>
+    <matplotlib.legend.Legend at 0x22f10da4cd0>
 
 
 
@@ -2285,10 +2285,10 @@ model.summary()
   <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th>           <td>4.663e+04</td> 
 </tr>
 <tr>
-  <th>Date:</th>             <td>Sat, 17 Oct 2020</td> <th>  Prob (F-statistic):</th>            <td>  0.00</td>   
+  <th>Date:</th>             <td>Mon, 19 Oct 2020</td> <th>  Prob (F-statistic):</th>            <td>  0.00</td>   
 </tr>
 <tr>
-  <th>Time:</th>                 <td>12:05:24</td>     <th>  Log-Likelihood:    </th>          <td>-2.0931e+05</td>
+  <th>Time:</th>                 <td>11:10:36</td>     <th>  Log-Likelihood:    </th>          <td>-2.0931e+05</td>
 </tr>
 <tr>
   <th>No. Observations:</th>      <td> 15479</td>      <th>  AIC:               </th>           <td>4.186e+05</td> 
@@ -2345,7 +2345,7 @@ plt.plot(model.predict(df[x_features]), [0 for i in range(len(df))])
 
 
 
-    [<matplotlib.lines.Line2D at 0x214b47c9f10>]
+    [<matplotlib.lines.Line2D at 0x22f10240f40>]
 
 
 
@@ -2386,7 +2386,7 @@ fig = sm.graphics.qqplot(model.resid, dist=stats.norm, line='45', fit=True)
 plt.figure(figsize=(11,9))
 sns.jointplot(x='grade',y='price', data=df, kind = 'reg', label = column, joint_kws = {'line_kws':{'color':'chartreuse'}})
 plt.legend(loc='lower right')
-plt.ylabel('Home Price in $100,000s',fontsize=12)
+plt.ylabel('Home Price in $1,000,000s',fontsize=12)
 plt.xlabel('Build Grade',fontsize=12)
 plt.show()
 ```
@@ -2406,7 +2406,7 @@ plt.show()
 plt.figure(figsize=(11,9))
 sns.jointplot(x='condition',y ='price', data = df, kind = 'reg', label = column, joint_kws = {'line_kws':{'color':'chartreuse'}})
 plt.legend(loc='lower right')
-plt.ylabel('Home Price in $100,000s',fontsize=12)
+plt.ylabel('Home Price in $1,000,000s',fontsize=12)
 plt.xlabel('Home Condition', fontsize=12)
 plt.show()
 ```
@@ -2844,10 +2844,10 @@ model.summary()
   <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th>          <td>   2179.</td> 
 </tr>
 <tr>
-  <th>Date:</th>             <td>Sun, 18 Oct 2020</td> <th>  Prob (F-statistic):</th>          <td>2.17e-124</td>
+  <th>Date:</th>             <td>Mon, 19 Oct 2020</td> <th>  Prob (F-statistic):</th>          <td>2.17e-124</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>19:06:43</td>     <th>  Log-Likelihood:    </th>          <td> -2415.6</td> 
+  <th>Time:</th>                 <td>11:12:51</td>     <th>  Log-Likelihood:    </th>          <td> -2415.6</td> 
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   177</td>      <th>  AIC:               </th>          <td>   4835.</td> 
@@ -2896,18 +2896,14 @@ model.summary()
 ```python
 plt.scatter(model.predict(df_mercer[x_features]), model.resid)
 plt.plot(model.predict(df_mercer[x_features]), [0 for i in range(len(df_mercer))])
+plt.ylabel('Residual Amount',fontsize=12)
+plt.xlabel('Home Price Actual', fontsize=12)
+plt.show()
 ```
 
 
-
-
-    [<matplotlib.lines.Line2D at 0x214bd231ac0>]
-
-
-
-
     
-![svg](Mod2HousingReg_files/Mod2HousingReg_93_1.svg)
+![svg](Mod2HousingReg_files/Mod2HousingReg_93_0.svg)
     
 
 
@@ -2937,7 +2933,8 @@ fig = sm.graphics.qqplot(model.resid, dist=stats.norm, line='45', fit=True)
 
 
 ```python
-cm(df_mercer,['sqft_living','sqft_lot'],'price',add_constant=False,show_summary=True,vif_threshold=3.5) # cm is check model function from statsFunctions.py
+finalreg = cm(df_mercer,['sqft_living','sqft_lot'],'price',add_constant=False,show_summary=True,vif_threshold=3.5) # cm is check model function from statsFunctions.py
+print(finalreg)
 ```
 
     sqft_living surpassed threshold with vif=3.776673540885498
@@ -2948,8 +2945,8 @@ cm(df_mercer,['sqft_living','sqft_lot'],'price',add_constant=False,show_summary=
     Dep. Variable:                  price   R-squared (uncentered):                   0.961
     Model:                            OLS   Adj. R-squared (uncentered):              0.961
     Method:                 Least Squares   F-statistic:                              2179.
-    Date:                Sun, 18 Oct 2020   Prob (F-statistic):                   2.17e-124
-    Time:                        19:08:48   Log-Likelihood:                         -2415.6
+    Date:                Mon, 19 Oct 2020   Prob (F-statistic):                   2.17e-124
+    Time:                        11:13:02   Log-Likelihood:                         -2415.6
     No. Observations:                 177   AIC:                                      4835.
     Df Residuals:                     175   BIC:                                      4842.
     Df Model:                           2                                                  
@@ -2969,14 +2966,8 @@ cm(df_mercer,['sqft_living','sqft_lot'],'price',add_constant=False,show_summary=
     Warnings:
     [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
     Residuals failed test/tests
+    <statsmodels.regression.linear_model.RegressionResultsWrapper object at 0x0000022F115873D0>
     
-
-
-
-
-    <statsmodels.regression.linear_model.RegressionResultsWrapper at 0x214bd214b80>
-
-
 
 Somewhat higher VIF score, but acceptable at 3.78. For each addition square foot of living space, the model predicts (on Mercer Island) that the price of the home will go up by 325.8. For each sqauare foot of lot space, the price will increase by 5.01.
 
