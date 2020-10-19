@@ -27,13 +27,16 @@
 
 ## Main Questions
 * Question 1: How does longitude and latitude affect home price in King County?
+* Question 2: Is temporary condition or overall grade (build quality) affecting home price more significantly?
+* Question 3: What parts of King County command the highest values per square foot?
+* Question 4: Our realtor client is most interested in Mercer Island. The client would like to know what features of homes on Mercer Island are most desirable. Let's investigate this specific portion of King County to provide them with an actionable recommendation.
 
 ## Summary Conclusions and Insights
 * Question 1 Answer and Further Investigation: When latitude and longitude are included in the regression, their VIF threshold is surpassed by a large margin. A more measured approach might be to look at the data after breaking down the dataset into smaller samples in their specific areas and creating neighborhood specific regressions. This would allow you to truly understand which specific features are affecting home prices, and therefore which to highlight. Location is a huge nonlinear factor on the price of the home.
 
 Distance from Seattle, however, does introduce a better feature to the model and is somewhat helpful in the prediction of price. The graph shows that our model is missing some information and is anticipating a less peaky distribution whereas the actual home sales are skewed towards the lower price range. Additionally, the distribution of home prices leans to and peaks to the left of the mean home price, indicating positive skewness in the actual home price sales. This is also why our predictive model also peaks just left of the actual price mean.
 
-![svg](ntbook1_files/ntbook1_19_0.svg)
+![svg](img/Mod2HousingReg_66_0.svg)
 
 * Question 2 Answer and Further Investigation: While neither feature was used in our final regressive predictive model, it is clear that original build grade is strongly positively correlated with home prices. Condition may not affect sale price much. This is likely because condition is temporary and can be remedied fairly easily, whereas to change a home's build grade requires substantial renovation from the literal ground up. To further investigate, suggest breaking the data down by geographical location again. The analyis of the entire county is not apples to apples. Real estate in downtown Seattle with a view of the city is not the same as real estate 15 miles south of Seattle.
 
