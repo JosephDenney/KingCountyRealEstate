@@ -7,6 +7,7 @@
 
 ### Outline
 * [Purpose](#Purpose)
+* [King County Map](#King_County_General_Map)
 * [Description of Data](#Description_of_Data)
 * [Main Questions](#Main-Questions)
 * [Summary Conclusions and Insights](#Summary-Conclusions-and-Insights)
@@ -25,34 +26,32 @@
 <img src="https://github.com/JosephDenney/KingCountyRealEstate/blob/master/img/headers.png?raw=true" width = "800"/>
 
 ## Main Questions
-* Question 1: Does a longer runtime indicate a lower average rating? Should Microsoft have a target movie length range for their projects? 
-* Question 2: What can we learn by looking at the correlation between total gross and the average rating of a movie? Put slightly differently, does a higher quality movie demand more money at the BO?
-* Question 3: What genres of films gross the most at the box office? What other insights can we gather from looking into this?
-* Question 4: What genres of films provide the highest ROI?
+* Question 1: How does longitude and latitude affect home price in King County?
 
 ## Summary Conclusions and Insights
-* Question 1: There is no readily apparent correlation between total runtime and the average rating of a movie based on the information in the data tables. Microsoft should focus on making movies within 1 standard deviation (+/- 22 minutes) of the mean of 95 minutes and they won't have an issue with viewers thinking movies are too long or too short.
+* Question 1 Answer and Further Investigation: When latitude and longitude are included in the regression, their VIF threshold is surpassed by a large margin. A more measured approach might be to look at the data after breaking down the dataset into smaller samples in their specific areas and creating neighborhood specific regressions. This would allow you to truly understand which specific features are affecting home prices, and therefore which to highlight. Location is a huge nonlinear factor on the price of the home.
+
+Distance from Seattle, however, does introduce a better feature to the model and is somewhat helpful in the prediction of price. The graph shows that our model is missing some information and is anticipating a less peaky distribution whereas the actual home sales are skewed towards the lower price range. Additionally, the distribution of home prices leans to and peaks to the left of the mean home price, indicating positive skewness in the actual home price sales. This is also why our predictive model also peaks just left of the actual price mean.
 
 ![svg](ntbook1_files/ntbook1_19_0.svg)
 
-* Question 2: As seen in the graph below, there is only a slight correlation between average rating and the total gross of a movie. The higher quality a movie is, the more likely it is to gross more at the box office. 
+* Question 2 Answer and Further Investigation: While neither feature was used in our final regressive predictive model, it is clear that original build grade is strongly positively correlated with home prices. Condition may not affect sale price much. This is likely because condition is temporary and can be remedied fairly easily, whereas to change a home's build grade requires substantial renovation from the literal ground up. To further investigate, suggest breaking the data down by geographical location again. The analyis of the entire county is not apples to apples. Real estate in downtown Seattle with a view of the city is not the same as real estate 15 miles south of Seattle.
 
 ![svg](ntbook1_files/ntbook1_25_0.svg)
 
-* Question 3: Adventure, Action, Fantasy, and Sci-Fi movies are all heavily featured as the highest grossing films. Microsoft should begin by focusing on some of these more popular genres in an effort to enter the market, even if there is low ROI up front. Creating good cornerstone content now will be a great foundation for creating profits in the future.
+* Question 3 Answer and Further Investigation: Bellevue, Capitol Hill, Magnolia, and Mercer Island have homes that are more expensive per square foot. Mercer Island has large homes and you can get more for your dollar compared with Bellevue. Generally speaking, properties south of Seattle in King County are not as valuable, but we can't pinpoint or recommend why that may be other than location. Isolating these specific locations and neighborhoods in separate regressions analyses will likely be an efficient way to build a better predictive model, the limitation being that the model can't be applied to different neighborhoods.
 
 ![svg](ntbook1_files/ntbook1_35_0.svg)
 ![svg](ntbook1_files/ntbook1_36_0.svg)
 ![svg](ntbook1_files/ntbook1_37_0.svg)
 
-* Question 4: There are some extremely high ROI's for certain combinations of genres. After establishing a solid foundation of quality content and a user base supportive of that content, we advise that Microsoft utilize less than the average for production budgets while diversifying content rapidly. A focus on finding material to develop in the Horror, Thriller, Mystery, and Sci-Fi will provide return in investment in the long run. Instead of Microsoft heaping money at projects that have the possibility to underperform without any rewards, Microsoft should first establish quality original content. 
+* Question 4 Answer and Further Investigation: Isolating the home sales on Mercer Island allowed us to isolate a smaller market to understand which features best predict the target. Let's run a quick check model formula for the Mercer Isand data. We recommend that the realtor highlight interior square footage, size of lot, and overal proximity to the city. The most important takeaway from our investigations is location, location, location. Can further isolate neighborhoods in further investigation and regressions, but many features that we started with are either trivial or autocorrelated and can't be used in regression. 
 
 ![svg](ntbook1_files/ntbook1_45_0.svg)
 
 ## Future Work
-* A larger more complete dataset that provides more datapoints in terms of revenue and also budgets
-* Further breaking down individual genres in order to target one specific genre at a time
-* Creating a trend over time to spot changes in the movie making market
-* Incorporate specific directors to the analysis to determine who specifically makes the most profitable movies
+* Analysis of the housing market must be neighborhood specific. Individuals with different income are going to be able to afford what they can afford. Similarly, not every person will put the same importance on specific features that another would. Breaking datasets into neighborhoods is crucial to building a model. 
+* Isolate which neighborhoods that are most important to the client and create neighborhood specific models. 
+* Create functions to quickly optimize the model
 
 ### Thank you!
