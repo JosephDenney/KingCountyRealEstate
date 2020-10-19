@@ -138,8 +138,9 @@ def check_model(df,
 
  
 # calc and return AdjR^2 and VIF scores
-def calc_adjr_and_VIF(rsquared, num_obs, p):
     
+def adjusted_r_squared(rsquared, num_obs, p):
+
     ''' calc_adjr_and_VIF calculates adjusted r squared and VIF for given r squared, but must
     be supplied with number of data points in sample as well as number of independent regressors
 
@@ -151,14 +152,11 @@ def calc_adjr_and_VIF(rsquared, num_obs, p):
     Returns:
     adjusted r squared and a VIF score for the input parameters
     '''
-    
-    def adjust_rsquared(rsquared, num_obs, p):
-        adjusted_r = (1 - (1-rsquared) * ((num_obs-1)/(num_obs-p-1)))
-        vif = 1/(1-adjusted_r)
-        print('Adjusted R^2 is: ',adjusted_r)
-        print('VIF score is: ',vif)
-        return vif
-        return adjusted_r
+    adjusted_r = (1 - (1-rsquared) * ((num_obs-1)/(num_obs-p-1)))
+    vif = 1/(1-adjusted_r)
+    print('Adjusted R^2 is: ',adjusted_r)
+    print('VIF score is: ',vif)
+    return vif, adjusted_r
  
-    pass
+
     
